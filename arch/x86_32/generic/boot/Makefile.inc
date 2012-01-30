@@ -1,0 +1,1 @@
+SRCS += $(PLATFORM_DIR)/boot/boot.S

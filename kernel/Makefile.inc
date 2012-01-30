@@ -1,0 +1,1 @@
+SRCS += kernel/main.c
