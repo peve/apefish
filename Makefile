@@ -51,7 +51,8 @@ CC_OPTS         := -Wall -Wformat -nostdinc -nostdlib -ffreestanding \
                    -Iinclude \
 		   -I$(ARCH_DIR)/include \
 		   -I$(PLATFORM_DIR)/include \
-                   -Iarch/generic/include
+                   -Iarch/generic/include \
+		   -g
 
 LD_SCRIPT       := $(PLATFORM_DIR)/boot/boot.ld
 LD_OPTS         := -static -T $(LD_SCRIPT) -o $(IMAGE) -Map $(MAP)
